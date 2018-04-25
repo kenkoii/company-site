@@ -3,10 +3,9 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#444444;}
+	.st0{fill:#B2B2B2;}
 	.st1{fill:none;stroke:#F45B3D;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st2{fill:none;stroke:#E5E5E5;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st3{fill:#B2B2B2;}
 </style>
 <g id="XMLID_84_">
 	<circle id="XMLID_26_" class="st0" cx="245.7" cy="288.8" r="10.4"/>
@@ -36,26 +35,26 @@
 			c-55.3,0-106.2-18.3-147.2-49.2"/>
 	</g>
 	<g id="XMLID_59_">
-		<circle id="XMLID_64_" class="st3" cx="123.3" cy="361.3" r="19.8"/>
-		<circle id="XMLID_63_" class="st3" cx="92.2" cy="325.7" r="12"/>
-		<circle id="XMLID_62_" class="st3" cx="113.8" cy="291.5" r="12"/>
-		<circle id="XMLID_61_" class="st3" cx="85.2" cy="279.4" r="7.7"/>
-		<circle id="XMLID_60_" class="st3" cx="104.3" cy="259.9" r="5.1"/>
+		<circle id="XMLID_64_" class="st0" cx="123.3" cy="361.3" r="19.8"/>
+		<circle id="XMLID_63_" class="st0" cx="92.2" cy="325.7" r="12"/>
+		<circle id="XMLID_62_" class="st0" cx="113.8" cy="291.5" r="12"/>
+		<circle id="XMLID_61_" class="st0" cx="85.2" cy="279.4" r="7.7"/>
+		<circle id="XMLID_60_" class="st0" cx="104.3" cy="259.9" r="5.1"/>
 	</g>
 	<g id="XMLID_65_">
-		<circle id="XMLID_70_" class="st3" cx="380.9" cy="366.5" r="19.8"/>
-		<circle id="XMLID_69_" class="st3" cx="412" cy="330.9" r="12"/>
-		<circle id="XMLID_68_" class="st3" cx="390.4" cy="296.7" r="12"/>
-		<circle id="XMLID_67_" class="st3" cx="419" cy="284.6" r="7.7"/>
-		<circle id="XMLID_66_" class="st3" cx="399.9" cy="265.1" r="5.1"/>
+		<circle id="XMLID_70_" class="st0" cx="380.9" cy="366.5" r="19.8"/>
+		<circle id="XMLID_69_" class="st0" cx="412" cy="330.9" r="12"/>
+		<circle id="XMLID_68_" class="st0" cx="390.4" cy="296.7" r="12"/>
+		<circle id="XMLID_67_" class="st0" cx="419" cy="284.6" r="7.7"/>
+		<circle id="XMLID_66_" class="st0" cx="399.9" cy="265.1" r="5.1"/>
 	</g>
-	<circle id="XMLID_71_" class="st3" cx="180.2" cy="434.4" r="14.9"/>
-	<circle id="XMLID_72_" class="st3" cx="227" cy="430.9" r="11.3"/>
-	<circle id="XMLID_73_" class="st3" cx="275" cy="453.2" r="14.5"/>
-	<circle id="XMLID_74_" class="st3" cx="322.4" cy="436.2" r="18"/>
-	<circle id="XMLID_75_" class="st3" cx="267.2" cy="422.1" r="6.7"/>
-	<circle id="XMLID_76_" class="st3" cx="238.9" cy="456.8" r="3.6"/>
-	<circle id="XMLID_77_" class="st3" cx="361.1" cy="411.4" r="7.3"/>
-	<circle id="XMLID_78_" class="st3" cx="134.5" cy="407.5" r="8.6"/>
+	<circle id="XMLID_71_" class="st0" cx="180.2" cy="434.4" r="14.9"/>
+	<circle id="XMLID_72_" class="st0" cx="227" cy="430.9" r="11.3"/>
+	<circle id="XMLID_73_" class="st0" cx="275" cy="453.2" r="14.5"/>
+	<circle id="XMLID_74_" class="st0" cx="322.4" cy="436.2" r="18"/>
+	<circle id="XMLID_75_" class="st0" cx="267.2" cy="422.1" r="6.7"/>
+	<circle id="XMLID_76_" class="st0" cx="238.9" cy="456.8" r="3.6"/>
+	<circle id="XMLID_77_" class="st0" cx="361.1" cy="411.4" r="7.3"/>
+	<circle id="XMLID_78_" class="st0" cx="134.5" cy="407.5" r="8.6"/>
 </g>
 </svg>

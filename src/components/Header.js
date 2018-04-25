@@ -9,7 +9,7 @@ const Header = (props) => {
       <div className="container">
         <div className="nav__group nav--left">
           <div className="nav__brand">
-            <Link to={`${selectedLang.langKey}`}>F R E C R E</Link>
+            <Link to={`/${selectedLang.langKey}`}>F R E C R E</Link>
           </div>
         </div>
         <div className="nav__group nav--right nav--w70p nav--sidebar">
@@ -18,10 +18,10 @@ const Header = (props) => {
               <Link to="#">GAMES</Link>
               <ul className="nav__dropdown">
                 <li>
-                  <Link to={`${selectedLang.langKey}/wordcosmos/`}>Eigomonogatari</Link>
+                  <Link to={`/${selectedLang.langKey}/wordcosmos/`}>Eigomonogatari</Link>
                 </li>
                 <li>
-                  <Link to={`${selectedLang.langKey}/wordcosmos/`}>Word Cosmos</Link>
+                  <Link to={`/${selectedLang.langKey}/wordcosmos/`}>Word Cosmos</Link>
                 </li>
               </ul>
             </li>
