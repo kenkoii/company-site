@@ -1,0 +1,89 @@
+.logo--bounce{
+    position: relative;
+    -webkit-animation: logoBounce 3s infinite;
+    animation: logoBounce 3s infinite;
+}
+
+.bg--out{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.svg--title{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.section--svg{
+    opacity: 0;
+}
+
+.section--svg.active{
+    opacity: 1;
+}
+
+.section--svg.animate path, .section--svg.animate line, .section--svg.animate rect, .section--svg.animate circle,
+.bg--out path,.bg--out line,.bg--out rect,.bg--out circle{
+    stroke-dasharray: 1800;
+    stroke-linecap: round;
+    animation: strokeRun 3s ease-in-out;
+}
+
+/* KEYFRAMES */
+
+@keyframes colorAnimate{
+    14.28%{
+        background: #e74c3c;
+    }
+    28.56%{
+        background: #9b59b6;
+    }
+    42.84%{
+        background: #3498db;
+    }
+    57.12%{
+        background: #1abc9c;
+    }
+    71.4%{
+        background: #f1c40f;
+    }
+    85.68%{
+        background: #e67e22;
+    }
+    100%{
+        background: #e74c3c;
+    }
+}
+
+@keyframes logoBounce{
+    0%{
+        bottom: 0px;
+    }
+    50%{
+        bottom: 30px;
+    }
+    100%{
+        bottom: 0px;
+    }
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes strokeRun{
+    0%{
+        stroke-dashoffset: 1800;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}

@@ -7,6 +7,7 @@ import { IntlProvider } from 'react-intl';
 import 'intl';
 import './main-style.css'
 import './grid.css'
+import './keyframes.css'
 import favicon from '../resources/favicon.ico'
 import Footer from '../components/Footer';
 
