@@ -7,6 +7,7 @@ import { IntlProvider } from 'react-intl';
 import 'intl';
 import './main-style.css'
 import './grid.css'
+import favicon from '../resources/favicon.ico'
 import Footer from '../components/Footer';
 
 const TemplateWrapper = ({ children, data, location, i18nMessages }) => {
@@ -27,8 +28,9 @@ const TemplateWrapper = ({ children, data, location, i18nMessages }) => {
           meta={[
             { name: 'description', content: 'Freedom Creators' },
             { name: 'keywords', content: 'game development, education, learning' },
-          ]}
-        />
+          ]}>
+          <link rel="shortcut icon" href={favicon} type="image/x-icon"/>
+        </Helmet>
         <Header langs={langsMenu} />
 
         {children()}
