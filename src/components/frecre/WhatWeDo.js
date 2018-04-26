@@ -7,7 +7,7 @@ import logo from '../../resources/svg/phone.svg'
 
 const WhatWeDo = () => {
     return (
-        <section className="section section--gray">
+        <section className="section section--white">
       <div className="container">
         <div className="row">
           <div className="col-sm">

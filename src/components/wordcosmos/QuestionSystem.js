@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import {FormattedMessage} from 'react-intl';
-import logo from '../../resources/img/sec-3.png';
+import logo from '../../resources/img/sec-3-1.png';
 
 const QuestionSystem = () => {
 

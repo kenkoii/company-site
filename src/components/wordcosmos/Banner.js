@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <section className="section section--wordcosmosbg1">
       <div className="title">
-        <img className="title__img" src={logo} alt="" />
+        <img className="title__img logo--bounce" src={logo} alt="" />
         <div className="title__register">
           <div className="register__input">
             <input type="email" name="" value="you@email.com" />

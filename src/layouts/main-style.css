@@ -344,22 +344,6 @@ p.section-info__text{
     background-size: cover;
 }
 
-.section--frecrebg2{
-    background: url(../resources/img/frec-1.png) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.section--frecrebg3{
-    background: url(../resources/img/frec-2.png) no-repeat center center; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 .section--frecrebg4{
     background: url(../resources/img/frec-3.png) no-repeat center center; 
     -webkit-background-size: cover;
@@ -369,15 +353,7 @@ p.section-info__text{
 }
 
 .section--wordcosmosbg1{
-    background: url(../resources/img/sky.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.section--wordcosmosbg2{
-    background: url(../resources/img/variant.png) no-repeat center center fixed; 
+    background: url(../resources/img/sky.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -385,7 +361,7 @@ p.section-info__text{
 }
 
 .section--wordcosmosbg3{
-    background: url(../resources/img/table.png) no-repeat center center fixed; 
+    background: url(../resources/img/table.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -472,8 +448,8 @@ p.section-info__text{
     background: #e74c3c;
     font-weight: 700;
     height: 100vh;
-    -webkit-animation: colorAnimate 60s infinite;
-    animation: colorAnimate 60s infinite;
+    -webkit-animation: colorAnimate 10s infinite;
+    animation: colorAnimate 10s infinite;
 }
 
 .bg--out{
@@ -488,6 +464,12 @@ p.section-info__text{
     position: relative;
     top: 0;
     z-index: 2;
+}
+
+.logo--bounce{
+    position: relative;
+    -webkit-animation: logoBounce 3s infinite;
+    animation: logoBounce 3s infinite;
 }
 
 /* KEYFRAMES */
@@ -513,6 +495,18 @@ p.section-info__text{
     }
     100%{
         background: #e74c3c;
+    }
+}
+
+@keyframes logoBounce{
+    0%{
+        bottom: 0px;
+    }
+    50%{
+        bottom: 30px;
+    }
+    100%{
+        bottom: 0px;
     }
 }
 
