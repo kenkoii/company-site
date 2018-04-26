@@ -318,6 +318,16 @@ p.section-info__text{
     display: block;
 }
 
+.nav__sidebar--overlay{
+    background: rgba(0,0,0,0.5);
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
 /* MODIFIERS */
 
 .nav--w70p{
@@ -474,6 +484,15 @@ p.section-info__text{
 
     /* ELEMENTS */
 
+    .bg--out{
+        width: 150% !important;
+        left: -30%;
+    }
+
+    .svg--title{
+        width: 100% !important;
+    }
+
     .title__img{
         width: 100%;
     }
@@ -505,11 +524,27 @@ p.section-info__text{
     .frecre__img{
         width: 100%;
     }
+
+    .nav__dropdown{
+        background: #ccc;
+        width: 100%;
+        position: relative !important;
+    }
+
+    .nav__dropdown a{
+        display: block !important;
+        padding: 10px 0 !important;
+    }
+
+    .nav__sidebar--overlay.active{
+        display: block;
+        z-index: 998;
+    }
+
     /* MODIFIERS */
 
     .nav--mobile{
         position: absolute;
-        background: transparent;
     }
 
     .nav--sidebar{
@@ -518,15 +553,18 @@ p.section-info__text{
         width: 250px;
         height: 100%;
         background: #fff;
+        padding: 0;
     }
 
     .nav--sidebar.active{
         right: 0;
+        z-index: 1000;
     }
 
     .nav--sidebar .nav__group_link li{
         float: none;
         display: block;
+        padding: 0px;
         width: 100%;
     }
 
