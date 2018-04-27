@@ -40,13 +40,13 @@ export class Header extends React.Component {
                 </ul>
               </li>
               <li className="nav__link">
-                <Link to="">CAREERS</Link>
+                <Link to={`/${this.state.selectedLang.langKey}/careers/`}>CAREERS</Link>
               </li>
               <li className="nav__link">
                 <Link to="">BLOG</Link>
               </li>
               <li className="nav__link">
-                <Link to="">CONTACT</Link>
+                <Link to={`/${this.state.selectedLang.langKey}/contact/`}>CONTACT</Link>
               </li>
             </ul>
             <LanguageSelector langs={this.props.langs}/>

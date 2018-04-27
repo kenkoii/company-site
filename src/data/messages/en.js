@@ -15,4 +15,8 @@ module.exports = {
   'whatWeDoDescription': 'Unlock wacky characters and colorful new worlds as you delve further into space! Each planet you step on will introduce you increasingly advanced words, challenging you to expand your vocabulary. An alien golem, a planet of pirates? With infinite possibilities, who knows what you’ll find?',
   'theTeam': 'THE TEAM',
   'theTeamDescription': 'Each thrilling match consists of three rounds and tests how well you understand a word by quizzing your knowledge of its appropriate synonyms, antonyms, and definition. It’s a race to two and questions will be presented a different way each round - you’ll definitely need to get your swift and smart on to win!',
+  'careers': 'CAREERS',
+  'careersDescription': 'Each thrilling match consists of three rounds and tests how well you understand a word by quizzing your knowledge of its appropriate synonyms, antonyms, and definition. It’s a race to two and questions will be presented a different way each round - you’ll definitely need to get your swift and smart on to win!',
+  'contact': 'Contact',
+  'contactDescription': 'Each thrilling match consists of three rounds and tests how well you understand a word by quizzing your knowledge of its appropriate synonyms, antonyms, and definition. It’s a race to two and questions will be presented a different way each round - you’ll definitely need to get your swift and smart on to win!',
 };
