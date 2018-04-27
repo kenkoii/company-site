@@ -9,13 +9,18 @@ export class Header extends React.Component {
     const selectedLang = props.langs.filter(lang => lang.selected == true)[0];
     this.state = {
       selectedLang : selectedLang,
-      sideBarActive: false
+      sideBarActive: false,
+      isGamesActive: false
     }
   }  
 
   onToggle = () => {
     this.setState({sideBarActive: !this.state.sideBarActive});
   }  
+
+  onToggleGame = () => {
+    this.setState({isGamesActive: !this.state.isGamesActive});
+  }
 
   render() {
     return (
@@ -29,7 +34,7 @@ export class Header extends React.Component {
           <div className={`nav__group nav--right nav--w70p nav--sidebar ${this.state.sideBarActive?'active':''}`}>
             <ul className="nav__group_link">
               <li className="nav__link nav--dropdown game">
-                <a>GAMES</a>
+                <a onClick={this.onToggleGame}>GAMES</a>
                 <ul className="nav__dropdown">
                   <li>
                     <Link to={`/${this.state.selectedLang.langKey}/wordcosmos/`} onClick={this.onToggle}>Eigomonogatari</Link>

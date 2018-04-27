@@ -28,28 +28,40 @@ const SelectLanguage = (props) => {
   );
 };
 
-const LanguageSelector = (props) => {
-  const links = props
+class LanguageSelector extends React.Component{
+  constructor(props){
+    super(props);
+    const links = props
     .langs
     .map(lang => <li selected={lang.selected} key={lang.langKey}>
-      <Link to={lang.link}>
+      <Link to={lang.link} onClick={props.onToggle}>
         {lang.langKey.toUpperCase()}
       </Link>
     </li>);
-  
-  const selected = props.langs.filter(lang => lang.selected == true)[0]
+    const selected = props.langs.filter(lang => lang.selected == true)[0]
+    this.state = {
+      links: links,
+      selected: selected,
+      active: false
+    }
+  }
 
+  onClick = () => {
+    this.setState({active: !this.state.active})
+  }
 
-  return (
-    <ul className="nav__group_link nav--lang">
-      <li className="nav__link nav--dropdown lang">
-        <Link to="">{selected.langKey.toUpperCase()}</Link>
-        <ul className="nav__dropdown">
-          {links}
-        </ul>
-      </li>
-    </ul>
-  )
+  render() {
+    return (
+      <ul className="nav__group_link nav--lang">
+        <li className="nav__link nav--dropdown lang">
+          <a onClick={this.onClick}>{this.state.selected.langKey.toUpperCase()}</a>
+          <ul className={`nav__dropdown ${this.state.active?'active':''}`}>
+            {links}
+          </ul>
+        </li>
+      </ul>
+    )
+  }
 }
 
 LanguageSelector.propTypes = {
