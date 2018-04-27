@@ -4,6 +4,7 @@ import Banner from '../components/wordcosmos/banner';
 import BattleToLearn from '../components/wordcosmos/BattleToLearn';
 import UnlockPossibilities from '../components/wordcosmos/UnlockPossibilities';
 import QuestionSystem from '../components/wordcosmos/QuestionSystem';
+import Header from '../components/Header';
 import MadeForLearning from '../components/wordcosmos/MadeForLearning';
 
 const WordCosmosPage = () => (
