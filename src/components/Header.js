@@ -5,7 +5,6 @@ import LanguageSelector from './SelectLanguage';
 export class Header extends React.Component {
   constructor(props){
     super(props);
-    console.log(props);
     const selectedLang = props.langs.filter(lang => lang.selected == true)[0];
     this.state = {
       selectedLang : selectedLang,
@@ -28,7 +27,7 @@ export class Header extends React.Component {
         <div className="container">
           <div className="nav__group nav--left">
             <div className="nav__brand">
-              <Link to={`/${this.state.selectedLang.langKey}`}>F R E C R E</Link>
+              <a href={`/${this.state.selectedLang.langKey}`}>F R E C R E</a>
             </div>
           </div>
           <div className={`nav__group nav--right nav--w70p nav--sidebar ${this.state.sideBarActive?'active':''}`}>
@@ -37,10 +36,10 @@ export class Header extends React.Component {
                 <a onClick={this.onToggleGame}>GAMES</a>
                 <ul className="nav__dropdown">
                   <li>
-                    <Link to={`/${this.state.selectedLang.langKey}/wordcosmos/`} onClick={this.onToggle}>Eigomonogatari</Link>
+                    <a href="https://eigomonogatari.com/" target="_blank" onClick={this.onToggle}>Eigomonogatari</a>
                   </li>
                   <li>
-                    <Link to={`/${this.state.selectedLang.langKey}/wordcosmos/`} onClick={this.onToggle}>Word Cosmos</Link>
+                    <a href={`/${this.state.selectedLang.langKey}/wordcosmos`} onClick={this.onToggle}>Word Cosmos</a>
                   </li>
                 </ul>
               </li>
