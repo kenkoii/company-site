@@ -6,7 +6,14 @@ import {FormattedMessage} from 'react-intl';
 
 
 const JobsSvg = (props) => {
-
+    const jobList = [
+        'Game Planner',
+        'Unity Developer',
+        'Game Data Analyst',
+        '2D Artist for Mobile Games',
+        'English Content Developer'];
+        
+    const jobs = jobList.map(job => <p className="section--text-center"><a href={`mailto:recruitment@frecre.com?subject=POSITION:${job}`} target="blank_">{job}</a></p>);
     return (
         <div className="section-info tc">
                 <div className={`section-info__image section--svg ${props.isVisible?'active animate':''}`}>
@@ -66,6 +73,9 @@ const JobsSvg = (props) => {
                         </div>
                         <h1 className="section-info__text section--text-center"><FormattedMessage id="careers"/></h1>
                         <p className="section-info__text section--text-gray"><FormattedMessage id="careersDescription"/></p>
+                        <p className="section-info__text section--text-center">
+                            {jobs}
+                        </p>
                     </div>
     )
 }

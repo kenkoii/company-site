@@ -53,7 +53,7 @@ export class Contact extends React.Component{
                                 <div className="input">
                                     <div className="select">
                                         <span>Philippines</span>
-                                        <ul className="select__dropdown">
+                                        <ul className="select__dropdown active">
                                             <li>Country</li>
                                             <li>Country</li>
                                             <li>Country</li>

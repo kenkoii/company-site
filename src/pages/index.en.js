@@ -10,7 +10,6 @@ const IndexPage = () => (
     <FreCreBanner />
     <TheCompany />
     <WhatWeDo />
-    <TheTeam />
   </div>
 )
 

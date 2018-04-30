@@ -44,13 +44,13 @@ export class Header extends React.Component {
                 </ul>
               </li>
               <li className="nav__link">
-                <Link to={`/${this.state.selectedLang.langKey}/careers/`}>CAREERS</Link>
+                <a href={`/${this.state.selectedLang.langKey}/careers/`}>CAREERS</a>
               </li>
               <li className="nav__link">
-                <Link to="">BLOG</Link>
+                <a href="https://blog.frecre.com" target="_blank">BLOG</a>
               </li>
               <li className="nav__link">
-                <Link to={`/${this.state.selectedLang.langKey}/contact/`}>CONTACT</Link>
+                <a href={`/${this.state.selectedLang.langKey}`}>CONTACT</a>
               </li>
             </ul>
             <LanguageSelector langs={this.props.langs}/>
@@ -74,3 +74,4 @@ export class Header extends React.Component {
   }
 }
 export default Header;
+
