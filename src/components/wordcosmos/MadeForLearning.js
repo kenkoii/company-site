@@ -8,8 +8,8 @@ const MadeForLearning = () => {
                 <div className="row">
                     <div className="col-sm">
                         <div className="section-info">
-                            <h1 className="section-info__text section--gomablock section--text-blue"><FormattedMessage id="madeForLearning"/></h1>
-                            <p className="section-info__text section--text-gray"><FormattedMessage id="madeForLearningDescription"/></p>
+                            <h1 className="section-info__text section--gomablock section--text-blue"><FormattedMessage id="WordCosmos_Section4Title"/></h1>
+                            <p className="section-info__text section--text-gray"><FormattedMessage id="WordCosmos_Section4Description"/></p>
                         </div>
                     </div>
                 </div>

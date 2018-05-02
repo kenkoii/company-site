@@ -69,7 +69,7 @@ export class Contact extends React.Component{
                             <div className="inptgroup__input"><div className="input input--w100p"><textarea placeholder="Your Message"></textarea></div></div>
                         </div>
                         <div className="contact-form__inptgroup">
-                            <div className="inptgroup__input"><div className="input input--w100p"><button type="Submit">Submit  </button></div></div>
+                            <div className="inptgroup__input"><div className="input input--w100p"><button type="Submit">Submit</button></div></div>
                         </div>
                     </div>
                 </div>

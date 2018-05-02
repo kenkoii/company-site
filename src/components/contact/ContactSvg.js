@@ -61,7 +61,7 @@ const JobsSvg = (props) => {
                     </g>
                 </svg>
             </div>
-            <h1 className="section-info__text section--text-center"><FormattedMessage id="contact"/></h1>
+            <h1 className="section-info__text section--text-center"><FormattedMessage id="FreCre_ContactsTitle"/></h1>
         </div>
     )
 }

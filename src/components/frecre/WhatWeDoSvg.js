@@ -75,8 +75,8 @@ const WhatWeDoSvg = (props) => {
                   </g>
               </svg>
               </div>
-              <h1 className="section-info__text section--text-center"><FormattedMessage id="whatWeDo"/></h1>
-              <p className="section-info__text section--text-gray"><FormattedMessage id="whatWeDoDescription"/></p>
+              <h1 className="section-info__text section--text-center"><FormattedMessage id="FreCre_Section2Title"/></h1>
+              <p className="section-info__text section--text-gray"><FormattedMessage id="FreCre_Section2Description"/></p>
             </div>
     )
 }

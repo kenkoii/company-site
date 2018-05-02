@@ -66,8 +66,8 @@ export const TheTeamSvg = (props) => {
                       </g>
                   </svg>
                   </div>
-                  <h1 className="section-info__text section--text-center"><FormattedMessage id="theTeam"/></h1>
-                  <p className="section-info__text section--text-gray"><FormattedMessage id="theTeamDescription"/></p>
+                  <h1 className="section-info__text section--text-center"><FormattedMessage id="FreCre_Section3Title"/></h1>
+                  <p className="section-info__text section--text-gray"><FormattedMessage id="FreCre_Section3Description"/></p>
                 </div>
     )
 }

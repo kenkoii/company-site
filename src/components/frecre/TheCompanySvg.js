@@ -100,8 +100,8 @@ const TheCompanySvg = (props) => {
                         </g>
                         </svg>
                         </div>
-                        <h1 className="section-info__text section--text-center"><FormattedMessage id="theCompany"/></h1>
-                        <p className="section-info__text section--text-gray"><FormattedMessage id="theCompanyDescription"/></p>
+                        <h1 className="section-info__text section--text-center"><FormattedMessage id="FreCre_Section1Title"/></h1>
+                        <p className="section-info__text section--text-gray"><FormattedMessage id="FreCre_Section1Description"/></p>
                     </div>
     )
 }

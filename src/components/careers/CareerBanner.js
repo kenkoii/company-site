@@ -8,7 +8,7 @@ export default () => {
     return (
         <section className="section bg--background-animate">
             <div className="title text--out">
-                <h1 className="title__text"><FormattedMessage id="careerBanner"/></h1>
+                <h1 className="title__text"><FormattedMessage id="FreCre_CareersBanner"/></h1>
                 <p className="title__subtext"></p>
             </div>
         </section>

@@ -19,8 +19,8 @@ const QuestionSystem = () => {
                     </div>
                     <div className="col-sm">
                         <div className="section-info">
-                            <h1 className="section-info__text section--gomablock section--text-yellow"><FormattedMessage id="questionSystem" /></h1>
-                            <p className="section-info__text section--text-white"><FormattedMessage id="questionSystemDescription" /></p>
+                            <h1 className="section-info__text section--gomablock section--text-yellow"><FormattedMessage id="WordCosmos_Section3Title" /></h1>
+                            <p className="section-info__text section--text-white"><FormattedMessage id="WordCosmos_Section3Description" /></p>
                         </div>
                     </div>
                 </div>

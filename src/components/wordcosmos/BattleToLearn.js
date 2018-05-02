@@ -15,9 +15,9 @@ const BattleToLearn = (props) => {
                     </div>
                     <div className="col-sm">
                         <div className="section-info">
-                            <h1 className="section-info__text section--gomablock"><FormattedMessage id="battleToLearn" /></h1>
+                            <h1 className="section-info__text section--gomablock"><FormattedMessage id="WordCosmos_Section1Title" /></h1>
                             <p className="section-info__text section--text-gray">
-                                <FormattedMessage id="battleToLearnDescription" />
+                                <FormattedMessage id="WordCosmos_Section1Description" />
                             </p>
                         </div>
                     </div>

@@ -8,7 +8,7 @@ export default () => {
             <input type="email" name="" value="you@email.com" />
           </div>
           <div className="register__button">
-            <button type="Submit"><FormattedMessage id="register"/></button>
+            <button type="Submit"><FormattedMessage id="WordCosmos_RegisterButtonTitle"/></button>
           </div>
         </div>
     );

@@ -1,4 +1,20 @@
-module.exports = {
+import Papa from 'papaparse'
+import languageData from './languageData'
+const LANGKEY = "en";
+
+let csvResult = Papa.parse(languageData, {
+  header: true,
+  fastMode: true,
+});
+
+let localizationDataEn = {};
+csvResult.data.forEach((translation) => {
+  localizationDataEn[translation.id] = translation[LANGKEY];
+});
+console.log(localizationDataEn);
+export default localizationDataEn;
+
+export const obj = {
   'register': 'Register',
   'selectLanguage': 'Select your language',
   'battleToLearn': 'BATTLE TO LEARN',

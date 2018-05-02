@@ -13,7 +13,7 @@ const JobsSvg = (props) => {
         '2D Artist for Mobile Games',
         'English Content Developer'];
         
-    const jobs = jobList.map(job => <p className="section--text-center"><a href={`mailto:recruitment@frecre.com?subject=POSITION:${job}`} target="blank_">{job}</a></p>);
+    const jobs = jobList.map(job => <p className="section--text-center"><a href={`mailto:recruitment@frecre.com?subject=[${job}]`} target="blank_">{job}</a></p>);
     return (
         <div className="section-info tc">
                 <div className={`section-info__image section--svg ${props.isVisible?'active animate':''}`}>
@@ -71,8 +71,8 @@ const JobsSvg = (props) => {
                             </g>
                         </svg>
                         </div>
-                        <h1 className="section-info__text section--text-center"><FormattedMessage id="careers"/></h1>
-                        <p className="section-info__text section--text-gray"><FormattedMessage id="careersDescription"/></p>
+                        <h1 className="section-info__text section--text-center"><FormattedMessage id="FreCre_CareersTitle"/></h1>
+                        <p className="section-info__text section--text-gray"><FormattedMessage id="FreCre_CareersDescription"/></p>
                         <p className="section-info__text section--text-center">
                             {jobs}
                         </p>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import LanguageSelector from './SelectLanguage';
+import { FormattedMessage } from 'react-intl';
 
 export class Header extends React.Component {
   constructor(props){
@@ -33,7 +34,7 @@ export class Header extends React.Component {
           <div className={`nav__group nav--right nav--w70p nav--sidebar ${this.state.sideBarActive?'active':''}`}>
             <ul className="nav__group_link">
               <li className="nav__link nav--dropdown game">
-                <a onClick={this.onToggleGame}>GAMES</a>
+                <a onClick={this.onToggleGame}><FormattedMessage id="Header_Games"/></a>
                 <ul className="nav__dropdown">
                   <li>
                     <a href="https://eigomonogatari.com/" target="_blank" onClick={this.onToggle}>Eigomonogatari</a>
@@ -44,13 +45,13 @@ export class Header extends React.Component {
                 </ul>
               </li>
               <li className="nav__link">
-                <a href={`/${this.state.selectedLang.langKey}/careers/`}>CAREERS</a>
+                <a href={`/${this.state.selectedLang.langKey}/careers/`}><FormattedMessage id="Header_Careers"/></a>
               </li>
               <li className="nav__link">
-                <a href="https://blog.frecre.com" target="_blank">BLOG</a>
+                <a href="https://blog.frecre.com" target="_blank"><FormattedMessage id="Header_Blog"/></a>
               </li>
               <li className="nav__link">
-                <a href={`/${this.state.selectedLang.langKey}`}>CONTACT</a>
+                <a href={`/${this.state.selectedLang.langKey}/contact`}><FormattedMessage id="Header_Contact"/></a>
               </li>
             </ul>
             <LanguageSelector langs={this.props.langs}/>
