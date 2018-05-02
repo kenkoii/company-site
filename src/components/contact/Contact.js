@@ -35,42 +35,44 @@ export class Contact extends React.Component{
                         <ContactSvg isVisible={this.state.isVisible} />
                     </VisibilitySensor>
                     <div className="contact-form">
-                        <div className="contact-form__inptgroup">
-                            <div className="inptgroup__input">
-                                <div className="input">
-                                    <input className="input" type="text" value="" placeholder="First Name"/>
-                                </div> 
-                                <div className="input">
-                                    <input className="input" type="text" value="" placeholder="Last Name"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="contact-form__inptgroup">
-                            <div className="inptgroup__input">
-                                <div className="input">
-                                    <input className="input" type="email" value="" placeholder="you@email.com"/>
-                                </div> 
-                                <div className="input">
-                                    <div className="select">
-                                        <span>Philippines</span>
-                                        <ul className="select__dropdown active">
-                                            <li>Country</li>
-                                            <li>Country</li>
-                                            <li>Country</li>
-                                            <li>Country</li>
-                                            <li>Country</li>
-                                            <li>Country</li>
-                                        </ul>
+                        <form method="POST" action="https://formspree.io/kentoy@frecre.com">
+                            <div className="contact-form__inptgroup">
+                                <div className="inptgroup__input">
+                                    <div className="input">
+                                        <input className="input" name="firstName" type="text" placeholder="First Name"/>
+                                    </div> 
+                                    <div className="input">
+                                        <input className="input" name="lastName" type="text" placeholder="Last Name"/>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="contact-form__inptgroup">
-                            <div className="inptgroup__input"><div className="input input--w100p"><textarea placeholder="Your Message"></textarea></div></div>
-                        </div>
-                        <div className="contact-form__inptgroup">
-                            <div className="inptgroup__input"><div className="input input--w100p"><button type="Submit">Submit</button></div></div>
-                        </div>
+                            <div className="contact-form__inptgroup">
+                                    <div className="inptgroup__input">
+                                        <div className="input">
+                                            <input className="input" type="email" name="email" placeholder="you@email.com"/>
+                                        </div> 
+                                        {/*<div className="input">
+                                            <div className="select">
+                                                <span>Philippines</span>
+                                                <ul className="select__dropdown active">
+                                                    <li>Country</li>
+                                                    <li>Country</li>
+                                                    <li>Country</li>
+                                                    <li>Country</li>
+                                                    <li>Country</li>
+                                                    <li>Country</li>
+                                                </ul>
+                                            </div>
+                                        </div>*/}
+                                    </div>
+                                    </div>
+                                    <div className="contact-form__inptgroup">
+                                    <div className="inptgroup__input"><div className="input input--w100p"><textarea name="message" placeholder="Your Message"></textarea></div></div>
+                                    </div>
+                                    <div className="contact-form__inptgroup">
+                                    <div className="inptgroup__input"><div className="input input--w100p"><button type="Submit">Submit</button></div></div> 
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
