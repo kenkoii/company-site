@@ -6,14 +6,23 @@ import {FormattedMessage} from 'react-intl';
 
 
 const JobsSvg = (props) => {
-    const jobList = [
-        'Game Planner',
-        'Unity Developer',
-        'Game Data Analyst',
-        '2D Artist for Mobile Games',
-        'English Content Developer'];
+    const jobList = [ {job: 'Game Planner', desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},
+                       {job: 'Unity Developer', desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},
+                       {job: 'Game Data Analyst', desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},
+                       {job: '2D Artist for Mobile Games', desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."},
+                       {job: 'English Content Develop', desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}
+                    ];
         
-    const jobs = jobList.map(job => <p className="section--text-center"><a href={`mailto:recruitment@frecre.com?subject=[${job}]`} target="blank_">{job}</a></p>);
+    const jobs = jobList.map(item => <div className="jobs__item">
+                                        <div className="item__title">
+                                            <a className="job-item" href={`mailto:recruitment@frecre.com?subject=[${item.job}]`} target="blank_">{item.job}</a>
+                                        </div>
+                                        <div className="item__desc">
+                                            <div className="desc__job">
+                                                <p>{item.desc}</p>
+                                            </div>
+                                        </div>
+                                    </div>);
     return (
         <div className="section-info tc">
                 <div className={`section-info__image section--svg ${props.isVisible?'active animate':''}`}>
@@ -73,9 +82,9 @@ const JobsSvg = (props) => {
                         </div>
                         <h1 className="section-info__text section--text-center"><FormattedMessage id="FreCre_CareersTitle"/></h1>
                         <p className="section-info__text section--text-gray"><FormattedMessage id="FreCre_CareersDescription"/></p>
-                        <p className="section-info__text section--text-center">
+                        <div className="section-info__jobs">
                             {jobs}
-                        </p>
+                        </div>
                     </div>
     )
 }

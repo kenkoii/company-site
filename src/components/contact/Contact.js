@@ -24,16 +24,18 @@ export class Contact extends React.Component{
         <section className="section section--gray">
           <div className="container">
             <div className="row">
+                <VisibilitySensor
+                    partialVisibility
+                    scrollCheck
+                    scrollThrottle={5}
+                    intervalDelay={8000}
+                    onChange={this.onChange}
+                    active={!this.state.isVisible}>
+                    <ContactSvg isVisible={this.state.isVisible} />
+                </VisibilitySensor>
+            </div>
+            <div className="row">
                 <div className="col-sm">
-                    <VisibilitySensor
-                        partialVisibility
-                        scrollCheck
-                        scrollThrottle={5}
-                        intervalDelay={8000}
-                        onChange={this.onChange}
-                        active={!this.state.isVisible}>
-                        <ContactSvg isVisible={this.state.isVisible} />
-                    </VisibilitySensor>
                     <div className="contact-form">
                         <form method="POST" action="https://formspree.io/kentoy@frecre.com">
                             <div className="contact-form__inptgroup">
@@ -50,20 +52,15 @@ export class Contact extends React.Component{
                                     <div className="inptgroup__input">
                                         <div className="input">
                                             <input className="input" type="email" name="email" placeholder="you@email.com"/>
-                                        </div> 
-                                        {/*<div className="input">
-                                            <div className="select">
-                                                <span>Philippines</span>
-                                                <ul className="select__dropdown active">
-                                                    <li>Country</li>
-                                                    <li>Country</li>
-                                                    <li>Country</li>
-                                                    <li>Country</li>
-                                                    <li>Country</li>
-                                                    <li>Country</li>
-                                                </ul>
-                                            </div>
-                                        </div>*/}
+                                        </div>
+                                        <div className="input">
+                                            <select className="select">
+                                                <option>Japan</option>
+                                                <option>Korea</option>
+                                                <option>China</option>
+                                                <option>Philippines</option>
+                                            </select>
+                                        </div>
                                     </div>
                                     </div>
                                     <div className="contact-form__inptgroup">

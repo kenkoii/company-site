@@ -68,7 +68,7 @@ textarea{
 
 .section-image, .section-info{
     width: 100%;
-    padding: 10%;
+    padding: 10px;
 }
 
 .title{
@@ -87,7 +87,8 @@ textarea{
     width: 100%;
     padding: 20px;
     font-size: 20px;
-    position: relative
+    position: relative;
+    border-radius: 0px;
 }
 
 .select::after{
@@ -107,6 +108,20 @@ textarea{
 .footer{
     width: 100%;
     background: #2b4c8e;
+}
+
+.job-item{
+    text-decoration: none;
+    font-size: 30px;
+    color: #e74c3c;
+}
+
+.employee{
+    padding: 20px;
+    width: 100%;
+    background: #fff;
+    margin: 10px 0px;
+    /*box-shadow: 0px 3px 5px rgba(0,0,0,0.05);*/
 }
 
 /* ELEMENTS */
@@ -417,10 +432,13 @@ p.section-info__text{
     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
 }
 
-.select__dropdown li{
+.select__dropdown option{
     padding: 20px 10px;
     text-align: center;
     border-bottom: 1px solid rgba(0,0,0,0.1);
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
 }
 
 .select__dropdown.active{
@@ -430,7 +448,7 @@ p.section-info__text{
 .inptgroup__input textarea{
     border: 1px solid rgba(0,0,0,0.1);
     width: 100%;
-    height: 500px;
+    height: 200px;
     padding: 20px;
     font-size: 20px;
 }
@@ -444,6 +462,73 @@ p.section-info__text{
     border: 0px;
     font-size: 20px;
     background: #2b4c8e;
+}
+
+.jobs__item{
+    padding: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.jobs__item:hover .item__desc{
+    height: 300px;
+}
+
+.jobs__item:hover .desc__job p{
+    opacity: 1;
+}
+
+.item__desc{
+    height: 0;
+    overflow: hidden;
+}
+
+.desc__job{
+    padding: 20px;
+}
+
+.desc__job p{
+    opacity: 0;
+    font-size: 18px;
+    color: rgba(0,0,0,0.5);
+    line-height: 30px;
+}
+
+.employee__img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgba(0,0,0,0.1);
+    margin: 30px auto;
+    border-radius: 100%;
+}
+
+.employee__desc{
+    width: 100%;
+    text-align: center;
+}
+
+.employee__desc h3{
+    list-style: none;
+    padding: 0;
+    color: rgba(0,0,0,0.5);
+}
+
+.employee__desc .desc__stats{
+    list-style: none;
+    padding: 0;
+}
+
+.employee__desc .desc__info{
+    padding: 10px 0px;
+    color: rgba(0,0,0,0.5);
+}
+
+.employee__desc .desc__stats li{
+    padding: 5px 0px;
+    color: rgba(0,0,0,0.7);
+}
+
+.employee__desc .desc__stats .stats{
+    font-weight: bold;
 }
 
 /* MODIFIERS */
@@ -556,6 +641,14 @@ p.section-info__text{
     text-align: center;
 }
 
+.section--thin .title{
+    padding: 20px 20px
+}
+
+.section--pushtop{
+    margin-top: 51px;
+}
+
 .img--absolute{
     display: block;
     position: absolute;
@@ -597,8 +690,6 @@ p.section-info__text{
 .input--w100p{
     width: 100% !important;
 }
-
-
 
 /* BREAKPOINTS */
 
