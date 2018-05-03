@@ -68,7 +68,7 @@ textarea{
 
 .section-image, .section-info{
     width: 100%;
-    padding: 10px;
+    padding: 10%;
 }
 
 .title{
@@ -689,6 +689,10 @@ p.section-info__text{
 
 .input--w100p{
     width: 100% !important;
+}
+
+.section-info--p10px{
+    padding: 10px;
 }
 
 /* BREAKPOINTS */

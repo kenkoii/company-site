@@ -3,7 +3,7 @@ import {FormattedMessage} from 'react-intl';
 
 const WhatWeDoSvg = (props) => {
     return(
-        <div className="section-info">
+        <div className="section-info section-info--p10px">
               <div className={`section-info__image section--svg ${props.isVisible?'active animate':''}`}>
                 <svg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
                 <style type="text/css">
