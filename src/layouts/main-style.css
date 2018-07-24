@@ -126,6 +126,7 @@ textarea{
 .footer{
     width: 100%;
     background: #2b4c8e;
+    animation: colorNav 10s infinite;
 }
 
 .job-item{
@@ -360,6 +361,16 @@ p.section-info__text{
     margin: 40px 0;
     line-height: 40px;
     text-align: justify;
+}
+
+.footer-info{
+    padding: 80px 20px;
+}
+
+.footer-info-item{
+    padding: 10px 0px;
+    width: 100%;
+    display: block;
 }
 
 .footer__group{
@@ -637,6 +648,10 @@ p.section-info__text{
 
 .section--text-white{
     color: #fff;
+}
+
+.section--text-white-faded{
+    color: rgba(255,255,255,0.5);
 }
 
 .section--text-gray{

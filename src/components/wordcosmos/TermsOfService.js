@@ -20,10 +20,9 @@ const TermsOfService = (props) => {
                     <div className="row">
                         <div className="col-sm">
                             <div className="section-info">
-                                <h5 className="section-info__text section--varela section--text-blue">Terms of Service</h5>
+                                <h5 className="section-info__text section--varela section--text-blue">this page is under construction</h5>
                             </div>
                             <p className="section-info__text section--text-gray">
-                                Lorem ipsum dolor sit amet
                             </p>
                         </div>
                     </div>

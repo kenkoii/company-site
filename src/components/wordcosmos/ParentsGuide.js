@@ -20,10 +20,9 @@ const ParentsGuide = (props) => {
                     <div className="row">
                         <div className="col-sm">
                             <div className="section-info">
-                                <h5 className="section-info__text section--varela section--text-blue">Parents</h5>
+                                <h5 className="section-info__text section--varela section--text-blue">this page is under construction</h5>
                             </div>
-                            <p className="section-info__text section--text-gray">
-                                Lorem ipsum dolor sit amet
+                            <p className="section-info__text section--text-gray">   
                             </p>
                         </div>
                     </div>
