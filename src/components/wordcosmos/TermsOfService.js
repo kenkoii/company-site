@@ -4,26 +4,14 @@ import Link from 'gatsby-link';
 const TermsOfService = (props) => {
     return (
         <div>
-            <section className="section section--wordcosmosbg1">
+            <section className="section bg--background-animate section--thin section--pushtop">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm">
                             <div className="section-info">
-                                <h1 className="section-info__text section--varela section--text-yellow">Terms of Service</h1>
+                                <h1 className="title__text-md">Terms of Service</h1>
+                                <h3 className="section--text-white">this page is under construction</h3>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className="section section--white">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm">
-                            <div className="section-info">
-                                <h5 className="section-info__text section--varela section--text-blue">this page is under construction</h5>
-                            </div>
-                            <p className="section-info__text section--text-gray">
-                            </p>
                         </div>
                     </div>
                 </div>
