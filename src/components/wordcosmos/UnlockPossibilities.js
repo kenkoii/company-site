@@ -11,7 +11,7 @@ const UnlockPossibilities = (props) => {
          <div className="row">
            <div className="col-sm">
              <div className="section-info">
-               <h1 className="section-info__text section--gomablock section--text-yellow"><FormattedMessage id="WordCosmos_Section2Title"/></h1>
+               <h1 className="section-info__text section--varela section--text-yellow"><FormattedMessage id="WordCosmos_Section2Title"/></h1>
                <p className="section-info__text section--text-white">
                 <FormattedMessage id="WordCosmos_Section2Description"/>
                </p>

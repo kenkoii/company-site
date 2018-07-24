@@ -1,7 +1,7 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
-export const TheTeamSvg = (props) => {
+export default (props) => {
     return (
         <div className="section-info section-info--p10px">
                   <div className={`section-info__image section--svg ${props.isVisible?'active animate':''}`}>

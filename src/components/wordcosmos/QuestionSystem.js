@@ -6,7 +6,7 @@ import logo from '../../resources/img/sec-3-1.png';
 const QuestionSystem = () => {
 
     return (
-        <section className="section section--wordcosmosbg4">
+        <section className="section section--white">
             <div className="container">
                 <div className="row">
                     <div className="col-sm">
@@ -19,8 +19,8 @@ const QuestionSystem = () => {
                     </div>
                     <div className="col-sm">
                         <div className="section-info">
-                            <h1 className="section-info__text section--gomablock section--text-yellow"><FormattedMessage id="WordCosmos_Section3Title" /></h1>
-                            <p className="section-info__text section--text-white"><FormattedMessage id="WordCosmos_Section3Description" /></p>
+                            <h1 className="section-info__text section--varela section--text-blue"><FormattedMessage id="WordCosmos_Section3Title" /></h1>
+                            <p className="section-info__text section--text-gray"><FormattedMessage id="WordCosmos_Section3Description" /></p>
                         </div>
                     </div>
                 </div>

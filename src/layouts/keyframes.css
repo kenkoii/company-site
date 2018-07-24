@@ -25,8 +25,8 @@
     opacity: 1;
 }
 
-.section--svg.animate path, .section--svg.animate line, .section--svg.animate rect, .section--svg.animate circle,
-.bg--out path,.bg--out line,.bg--out rect,.bg--out circle{
+.section--svg.animate path, .section--svg.animate line, .section--svg.animate rect, .section--svg.animate circle, .section--svg.animate polyline, .section--svg.animate polygon,
+.bg--out path,.bg--out line,.bg--out rect,.bg--out circle, .bg--out polyline, .bg--out polygon{
     stroke-dasharray: 1800;
     stroke-linecap: round;
     animation: strokeRun 3s ease-in-out;
@@ -55,6 +55,38 @@
     }
     100%{
         background: #e74c3c;
+    }
+}
+
+@keyframes colorNav{
+    14.28%{
+        background: #e74c3c;
+        /*box-shadow: 0px 3px 5px rgba(231, 76, 60, 1);*/
+    }
+    28.56%{
+        background: #9b59b6;
+        /*box-shadow: 0px 3px 5px rgba(155, 89, 182, 1);*/
+    }
+    42.84%{
+        background: #3498db;
+        /*box-shadow: 0px 3px 5px rgba(52, 152, 219, 1);*/
+    }
+    57.12%{
+
+        background: #1abc9c;
+        /*box-shadow: 0px 3px 5px rgba(26, 188, 156, 1);*/
+    }
+    71.4%{
+        background: #f1c40f;
+        /*box-shadow: 0px 3px 5px rgba(241, 196, 15, 1);*/
+    }
+    85.68%{
+        background: #e67e22;
+        /*box-shadow: 0px 3px 5px rgba(230, 126, 34, 1);*/
+    }
+    100%{
+        background: #e74c3c;
+        /*box-shadow: 0px 3px 5px rgba(231, 76, 60, 1);*/
     }
 }
 
