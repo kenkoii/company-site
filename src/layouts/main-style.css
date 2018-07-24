@@ -261,6 +261,11 @@ textarea{
     text-align: center;
 }
 
+.title__text-md{
+    color: #fff;
+    font-size: 60px !important;
+}
+
 .title__img{
     width: 600px;
     height: auto;
