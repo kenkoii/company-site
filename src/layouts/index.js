@@ -35,7 +35,7 @@ const TemplateWrapper = ({ children, data, location, i18nMessages }) => {
         <Header langs={langsMenu} />
 
         {children()}
-        <Footer/>
+        <Footer langs={langsMenu} />
       </div>
     </IntlProvider>
   );

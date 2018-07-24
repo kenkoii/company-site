@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import LanguageSelector from './SelectLanguage';
 import { FormattedMessage } from 'react-intl';
 
-export class Header extends React.Component {
+class Header extends React.Component {
   constructor(props){
     super(props);
     const selectedLang = props.langs.filter(lang => lang.selected == true)[0];
@@ -12,7 +12,12 @@ export class Header extends React.Component {
       sideBarActive: false,
       isGamesActive: false
     }
-  }  
+
+    this.games = [
+      { "link": "https://eigomonogatari.com/", "name": "WordCosmos"},
+      { "link": `/${this.state.selectedLang.langKey}/wordcosmos`, "name": "WordCosmos"},
+    ];
+  }
 
   onToggle = () => {
     this.setState({sideBarActive: !this.state.sideBarActive});
