@@ -15,7 +15,7 @@ const BattleToLearn = (props) => {
                     </div>
                     <div className="col-sm">
                         <div className="section-info">
-                            <h1 className="section-info__text section--gomablock"><FormattedMessage id="WordCosmos_Section1Title" /></h1>
+                            <h1 className="section-info__text section--varela"><FormattedMessage id="WordCosmos_Section1Title" /></h1>
                             <p className="section-info__text section--text-gray">
                                 <FormattedMessage id="WordCosmos_Section1Description" />
                             </p>
@@ -26,5 +26,12 @@ const BattleToLearn = (props) => {
         </section>
     )
 }
-
+// <FormattedMessage id="WordCosmos_Section1Title">
+//     { (txt) => (
+//         <svg viewBox="0 0 350 50">
+//             <text y="40" class="svg--varela">{txt}</text>
+//         </svg>
+//     )}
+// </FormattedMessage>
+                            
 export default BattleToLearn
