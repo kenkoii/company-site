@@ -126,6 +126,7 @@ textarea{
 .footer{
     width: 100%;
     background: #2b4c8e;
+    animation: colorNav 10s infinite;
 }
 
 .job-item{
