@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import LanguageSelector from './SelectLanguage';
 import { FormattedMessage } from 'react-intl';
+import logo from '../resources/img/frecre-logo.png' 
 
 class Header extends React.Component {
   constructor(props){
@@ -33,7 +34,7 @@ class Header extends React.Component {
         <div className="container">
           <div className="nav__group nav--left">
             <div className="nav__brand">
-              <a href={`/${this.state.selectedLang.langKey}`}>F R E C R E</a>
+              <a href={`/${this.state.selectedLang.langKey}`}>FreCre, Inc.</a>
             </div>
           </div>
           <div className={`nav__group nav--right nav--w70p nav--sidebar ${this.state.sideBarActive?'active':''}`}>

@@ -8,12 +8,15 @@ import logo from '../../resources/img/word-cosmos-title.png'
 const Banner = () => {
 
   return (
-    <section className="section section--wordcosmosbg1 section--pushtop">
+    <section className="section section--wordcosmosbg1">
       <div className="title">
         <img className="title__img logo--bounce" src={logo} alt="" />
         {/*
           <RegisterField />
         */}
+        <h1 className="section--text-white section--text-center">Releasing beta soon!</h1>
+        <div className="inptgroup__input"><div className="input input--w100p"><a href="#" className="wcbutton">Sign Up for Beta</a></div></div> 
+                            
       </div>
     </section>
   );

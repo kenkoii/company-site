@@ -2,15 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import {FormattedMessage} from 'react-intl';
+import Countries from './Countries'
 import VisibilitySensor from 'react-visibility-sensor';
 import ContactSvg from './ContactSvg';
 
 
 export class Contact extends React.Component{
+    
     constructor(props){
+        // const countries = Countries;
         super(props);
         this.state = {
-            isVisible: false
+            isVisible: false,
+            // countryList: countryList
         }
     }
     
@@ -19,7 +23,7 @@ export class Contact extends React.Component{
     }
 
     render() {
-
+        const countryList = Countries.map(item => <option>{item.name}</option>);
         return (
         <section className="section section--gray">
           <div className="container">
@@ -41,24 +45,28 @@ export class Contact extends React.Component{
                             <div className="contact-form__inptgroup">
                                 <div className="inptgroup__input">
                                     <div className="input">
-                                        <input className="input" name="firstName" type="text" placeholder="First Name"/>
+                                        <input className="input" name="Name" type="text" placeholder="Name"/>
                                     </div> 
                                     <div className="input">
-                                        <input className="input" name="lastName" type="text" placeholder="Last Name"/>
+                                        <input className="input" type="email" name="email" placeholder="you@email.com"/>
                                     </div>
                                 </div>
                             </div>
                             <div className="contact-form__inptgroup">
                                     <div className="inptgroup__input">
-                                        <div className="input">
-                                            <input className="input" type="email" name="email" placeholder="you@email.com"/>
-                                        </div>
-                                        <div className="input">
+                                        <div className="input dd">
                                             <select className="select">
-                                                <option>Japan</option>
-                                                <option>Korea</option>
-                                                <option>China</option>
-                                                <option>Philippines</option>
+                                                {countryList}
+                                            </select>
+                                        </div>
+                                        <div className="input dd">
+                                            <select className="select">
+                                                <option>Type of Inquiry</option>
+                                                <option>Media Inquiry</option>
+                                                <option>Partnership</option>
+                                                <option>Game Inquiry</option>
+                                                <option>Careers</option>
+                                                <option>Others</option>
                                             </select>
                                         </div>
                                     </div>
