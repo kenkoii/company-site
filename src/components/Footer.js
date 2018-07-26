@@ -20,7 +20,7 @@ export class Footer extends React.Component{
                             <div className="footer-info">
                                 <h2 className="footer-info-item section--text-white">Need Help?</h2>
                                 <a href={`/${this.state.selectedLang.langKey}/wordcosmos/faq`} className="footer-info-item section--text-white-faded">FAQs</a>
-                                <a href={`/${this.state.selectedLang.langKey}/wordcosmos/parents-guide`} className="footer-info-item section--text-white-faded">Parents Guide</a>
+                                <a href={`/${this.state.selectedLang.langKey}/wordcosmos/parents-guide`} className="footer-info-item section--text-white-faded">Parents' Guide</a>
                                 <a href={`/${this.state.selectedLang.langKey}/wordcosmos/terms-of-service`} className="footer-info-item section--text-white-faded">Terms of Service</a>
                                 <a href={`/${this.state.selectedLang.langKey}/wordcosmos/privacy-policy`} className="footer-info-item section--text-white-faded">Privacy Policy</a>
                                 <a href={`/${this.state.selectedLang.langKey}/wordcosmos/credits`} className="footer-info-item section--text-white-faded">Credits</a>

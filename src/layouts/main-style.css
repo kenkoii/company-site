@@ -163,7 +163,7 @@ textarea{
     display: block;
     padding: 20px 0;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: bold;
 }
 
@@ -193,7 +193,7 @@ textarea{
     display: block;
     padding: 20px 0;
     text-align: center;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: bold;
 }
 
@@ -446,11 +446,29 @@ p.section-info__text{
     padding: 20px;
 }
 
+.inptgroup__input .dd{
+    position: relative;
+}
+
 .inptgroup__input .input input{
     border: 1px solid rgba(0,0,0,0.1);
     background: #fff;
     width: 100%;
     font-size: 20px;
+}
+
+.inptgroup__input .dd::after{
+    content: " ";
+    display: block;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 45%;
+    right: 30px;
+    border-top: 10px solid #ccc;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
 }
 
 .select__dropdown{
@@ -498,6 +516,20 @@ p.section-info__text{
     border: 0px;
     font-size: 20px;
     background: #2b4c8e;
+}
+
+.inptgroup__input .input .wcbutton{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+    border: 0px;
+    font-size: 20px;
+    background: #3DC9FD;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
 }
 
 .jobs__item{
