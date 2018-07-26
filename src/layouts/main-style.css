@@ -167,6 +167,11 @@ textarea{
     font-weight: bold;
 }
 
+.brand__logo{
+    width: 50px;
+    height: auto;
+}
+
 .nav__group_link{
     padding: 0px;
     margin: 0 auto;

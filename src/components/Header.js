@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import LanguageSelector from './SelectLanguage';
 import { FormattedMessage } from 'react-intl';
+import logo from '../resources/img/frecre-logo.png' 
 
 class Header extends React.Component {
   constructor(props){
