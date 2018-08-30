@@ -6,10 +6,12 @@ import UnlockPossibilities from '../components/wordcosmos/UnlockPossibilities';
 import QuestionSystem from '../components/wordcosmos/QuestionSystem';
 import Header from '../components/Header';
 import MadeForLearning from '../components/wordcosmos/MadeForLearning';
+import PromotionalVideo from '../components/wordcosmos/PromotionalVideo';
 
 const WordCosmosPage = () => (
   <div>
     <Banner/>
+    <PromotionalVideo />
     <BattleToLearn />
     <UnlockPossibilities />
     <QuestionSystem />
