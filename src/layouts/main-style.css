@@ -58,8 +58,8 @@ textarea{
     top: 0;
     width: 100%;
     z-index: 1000;
-    -webkit-animation: colorNav 10s infinite;
-    animation: colorNav 10s infinite;
+    /*-webkit-animation: colorNav 10s infinite;
+    animation: colorNav 10s infinite;*/
     /*box-shadow: 0px 3px 5px rgba(231, 76, 60, 0.5);*/
 }
 
@@ -126,7 +126,7 @@ textarea{
 .footer{
     width: 100%;
     background: #e74c3c;
-    animation: colorNav 10s infinite;
+    /*animation: colorNav 10s infinite;*/
 }
 
 .job-item{
@@ -527,13 +527,13 @@ p.section-info__text{
     width: 200px;
     display: block;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
     color: #fff;
-    border: 0px;
+    border: 1px solid #ccc;
     font-size: 20px;
-    background: #3DC9FD;
+    background: #000;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 8px;
     text-decoration: none;
 }
 
@@ -678,6 +678,10 @@ p.section-info__text{
 
 .section--white{
     background: #fff;
+}
+
+.section--red{
+    background: #e74c3c;
 }
 
 .section--blue{

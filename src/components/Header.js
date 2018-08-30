@@ -57,7 +57,6 @@ class Header extends React.Component {
                   </li>
                 </ul>
               </li>
-              
             </ul>
           </div>
           <div 
@@ -80,9 +79,8 @@ class Header extends React.Component {
 }
 export default Header;
 
+/*<li className="nav__link">
+  <a href="https://blog.frecre.com" target="_blank"><FormattedMessage id="Header_Blog"/></a>
+  </li>*/
 
-              /*<li className="nav__link">
-                <a href="https://blog.frecre.com" target="_blank"><FormattedMessage id="Header_Blog"/></a>
-                </li>*/
-
-            // 
+//

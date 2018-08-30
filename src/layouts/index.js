@@ -8,7 +8,7 @@ import 'intl';
 import './main-style.css'
 import './grid.css'
 import './keyframes.css'
-import favicon from '../resources/favicon.ico'
+import favicon from '../resources/img/frecre-logo.png'
 import Footer from '../components/Footer';
 
 const TemplateWrapper = ({ children, data, location, i18nMessages }) => {

@@ -7,7 +7,7 @@ import logo from '../../resources/svg/frecre-title.svg'
 
 const FreCreBanner = () => {
     return (
-        <section className="section bg--background-animate section--pushtop">
+        <section className="section section--red section--pushtop">
             <div className="bg--out"><svg id='Layer_1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'>
                 <g id='XMLID_6_'>
                     <path id='XMLID_2_' className='st0' d='M368.4,923.5h50c28,0,51,22.9,51,51v147.9c0,28-22.9,51-51,51h-50c-28,0-51-22.9-51-51V974.4 C317.5,946.4,340.4,923.5,368.4,923.5z'
