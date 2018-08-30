@@ -25,7 +25,7 @@ const TemplateWrapper = ({ children, data, location, i18nMessages }) => {
     >
       <div>
         <Helmet
-          title="FreCre Inc."
+          title="FreCre, Inc."
           meta={[
             { name: 'description', content: 'Freedom Creators' },
             { name: 'keywords', content: 'game development, education, learning' },

@@ -15,7 +15,7 @@ const Banner = () => {
           <RegisterField />
         */}
         <h1 className="section--text-white section--text-center">Releasing beta soon!</h1>
-        <div className="inptgroup__input"><div className="input input--w100p"><a href="#" className="wcbutton">Sign Up for Beta</a></div></div> 
+        <div className="inptgroup__input"><div className="input input--w100p"><a href="https://goo.gl/forms/1S8k6MCHz4dJzt3A2" target="_blank" className="wcbutton">Sign Up for Beta</a></div></div> 
                             
       </div>
     </section>

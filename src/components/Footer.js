@@ -37,7 +37,7 @@ export class Footer extends React.Component{
                         <div className="col-sm">
                             <div className="footer-info">
                                 <h2 className="footer-info-item section--text-white">Company Address</h2>
-                                <p className="footer-info-item section--text-white-faded">1101 Park Centrale<br/>IT Park, Apas<br/>Cebu City, Cebu 6000</p>
+                                <p className="footer-info-item section--text-white-faded">1101 Park Centrale<br/>Jose Maria del Mar Street, IT Park<br/>Cebu City, Philippines 6000</p>
                             </div>
                         </div>
                     </div>

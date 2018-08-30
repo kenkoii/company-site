@@ -39,6 +39,13 @@ class Header extends React.Component {
           </div>
           <div className={`nav__group nav--right nav--w70p nav--sidebar ${this.state.sideBarActive?'active':''}`}>
             <ul className="nav__group_link">
+              <LanguageSelector langs={this.props.langs}/>
+              <li className="nav__link">
+                <a href={`/${this.state.selectedLang.langKey}/contact`}><FormattedMessage id="Header_Contact"/></a>
+              </li>
+              <li className="nav__link">
+                <a href={`/${this.state.selectedLang.langKey}/careers/`}><FormattedMessage id="Header_Careers"/></a>
+              </li>
               <li className="nav__link nav--dropdown game">
                 <a onClick={this.onToggleGame}><FormattedMessage id="Header_Games"/></a>
                 <ul className="nav__dropdown">
@@ -50,17 +57,8 @@ class Header extends React.Component {
                   </li>
                 </ul>
               </li>
-              <li className="nav__link">
-                <a href={`/${this.state.selectedLang.langKey}/careers/`}><FormattedMessage id="Header_Careers"/></a>
-              </li>
-              <li className="nav__link">
-                <a href="https://blog.frecre.com" target="_blank"><FormattedMessage id="Header_Blog"/></a>
-              </li>
-              <li className="nav__link">
-                <a href={`/${this.state.selectedLang.langKey}/contact`}><FormattedMessage id="Header_Contact"/></a>
-              </li>
+              
             </ul>
-            <LanguageSelector langs={this.props.langs}/>
           </div>
           <div 
             className={`nav__sidebar--overlay ${this.state.sideBarActive?'active':''}`}
@@ -82,3 +80,9 @@ class Header extends React.Component {
 }
 export default Header;
 
+
+              /*<li className="nav__link">
+                <a href="https://blog.frecre.com" target="_blank"><FormattedMessage id="Header_Blog"/></a>
+                </li>*/
+
+            // 
