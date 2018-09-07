@@ -41,7 +41,7 @@ export class Contact extends React.Component{
             <div className="row">
                 <div className="col-sm">
                     <div className="contact-form">
-                        <form method="POST" action="https://formspree.io/kentoy@frecre.com">
+                        <form method="POST" action="https://formspree.io/support@frecre.com">
                             <div className="contact-form__inptgroup">
                                 <div className="inptgroup__input">
                                     <div className="input">
