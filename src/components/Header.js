@@ -13,7 +13,6 @@ class Header extends React.Component {
       sideBarActive: false,
       isGamesActive: false
     }
-
     this.games = [
       { "link": "https://eigomonogatari.com/", "name": "WordCosmos"},
       { "link": `/${this.state.selectedLang.langKey}/wordcosmos`, "name": "WordCosmos"},
