@@ -4,13 +4,13 @@ import Link from 'gatsby-link';
 const PrivacyPolicy = (props) => {
     return (
         <div>
-            <section className="section section--red section--thin">
+            <section className="section section--white section--thin">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm">
                             <div className="section-info">
-                                <h1 className="title__text-md">Privacy Policy</h1>
-                                <div className="section--text-white">
+                                <h1 className="title__text-md section--text-red">Privacy Policy</h1>
+                                <div className="section--text-gray">
                                     <p>
                                         <strong>Effective Date: 1 August 2018</strong>
                                     </p>

@@ -4,14 +4,14 @@ import Link from 'gatsby-link';
 const TermsOfService = (props) => {
     return (
         <div>
-            <section className="section section--red section--thin">
+            <section className="section section--white section--thin">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm">
                             <div className="section-info">
-                                <h1 className="title__text-md">Terms of Service</h1>
-                                <p className="section--text-white">Effective Date: 1 August 2018</p>
-                                <ol className="section--text-white">
+                                <h1 className="title__text-md section--text-red">Terms of Service</h1>
+                                <p className="section--text-gray">Effective Date: 1 August 2018</p>
+                                <ol className="section--text-gray">
                                     <li>Terms
                                         <p>
                                         By accessing The Service, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing The Service. The materials contained in this website are protected by applicable copyright and trademark law.
