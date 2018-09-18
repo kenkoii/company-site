@@ -876,11 +876,37 @@ p.section-info__text{
     padding: 10px;
 }
 
+.gplay{
+    width: 500px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.gplay .input{
+    width: 300px;
+    margin: 0 auto;
+    float: none;
+}
+
+.app__desc{
+    padding: 0 10px;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #fff;
+    text-align: justify;
+}
+
+.pv{
+    width: 100%;
+    height: 800px;
+}
+
 /* BREAKPOINTS */
 
 @media(max-width: 1024px){
 
-    /* ELEMENTS */
+    /* ELEMENTS */s
 
     .bg--out{
         width: 150% !important;
@@ -922,6 +948,11 @@ p.section-info__text{
     .frecre__img{
         width: 100%;
     }
+
+    .nav{
+        display: none !important;
+    }
+
 
     .nav__dropdown{
         background: #ccc;
@@ -1000,7 +1031,35 @@ p.section-info__text{
     .footer--mobile .footer__group{
         width: 100%;
     }
+
+    .app__desc{
+        width: 100%;
+    }
+
+    .pv{
+        width: 100%;
+        height: 300px;
+    }
+
+    .section-image.pv{
+        padding: 20px 0;    
+    }
     
+}
+
+@media (max-width: 500px){
+
+    .gplay{
+        width: 100%;
+        height: auto;
+    }
+
+    .gplay .input{
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+    }
+
 }
 
 
