@@ -877,8 +877,9 @@ p.section-info__text{
 }
 
 .gplay{
-    width: 500px;
-    margin: 0 auto;
+    width: 5
+    00px;
+    margin: 0 auto 50px auto;
     height: auto;
 }
 
@@ -886,15 +887,18 @@ p.section-info__text{
     width: 300px;
     margin: 0 auto;
     float: none;
+    padding: 0 20px;
 }
 
 .app__desc{
-    padding: 0 10px;
-    width: 400px;
+    padding: 0 30px;
+    width: 600px;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 40px;
     color: #fff;
     text-align: justify;
+    /* list-style: none; */
 }
 
 .pv{
@@ -1033,7 +1037,7 @@ p.section-info__text{
     }
 
     .app__desc{
-        width: 100%;
+        width: 100% !important;
     }
 
     .pv{
@@ -1052,6 +1056,7 @@ p.section-info__text{
     .gplay{
         width: 100%;
         height: auto;
+        padding: 0 20px;
     }
 
     .gplay .input{
