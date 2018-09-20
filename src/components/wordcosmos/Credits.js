@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 const Credits = (props) => {
     return (
         <div>
-            <section className="section section--red section--thin">
+            <section className="section section--red section--thin section--banner">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm">

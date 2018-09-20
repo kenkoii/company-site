@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 const PrivacyPolicy = (props) => {
     return (
         <div>
-            <section className="section section--white section--thin">
+            <section className="section section--white section--thin section--banner">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm">

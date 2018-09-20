@@ -8,7 +8,7 @@ import logo from '../../resources/img/word-cosmos-title-v2.png'
 const Banner = () => {
 
   return (
-    <section className="section section--wordcosmosbg1">
+    <section className="section section--wordcosmosbg1 section--banner">
       <div className="title">
         <img className="title__img logo--bounce" src={logo} alt="" />
         {/*<RegisterField />*/}

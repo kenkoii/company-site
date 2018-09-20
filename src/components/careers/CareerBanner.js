@@ -6,7 +6,7 @@ import {FormattedMessage} from 'react-intl'
 
 export default () => {
     return (
-        <section className="section section--red section--thin">
+        <section className="section section--red section--thin section--banner">
             <div className="container">
                     <div className="row">
                         <div className="col-sm">

@@ -81,12 +81,22 @@ textarea{
 
 .section{
     width: 100%;
-    padding: 5% 0;
+    overflow: hidden;
+    position: relative;
 }
 
-.section-image, .section-info{
+.section--banner{
+    padding: 30px 0;
+    margin-top: 55px;
+}
+
+.section-image{
     width: 100%;
-    padding: 20% 10%;
+    /* padding: 20% 10%; */
+}
+
+.section-info{
+    padding: 50px 0px;
 }
 
 .title{
@@ -145,6 +155,7 @@ textarea{
 
 .supportpages{
     width: 100%;
+    margin-top: 55px;
 }
 
 .supportpages::after{
@@ -155,7 +166,9 @@ textarea{
 
 .support--sidebar{
     width: 20%;
-    height: 100%;
+    padding: 20px;
+    height: calc(100% - 55px);
+    overflow-y: scroll;
     float: left;
 }
 .support--links{
@@ -209,7 +222,9 @@ textarea{
 
 .support--main-content{
     width: 80%;
-    height: 100%;
+    height: calc(100vh - 55px);
+    padding: 20px;
+    overflow-y: scroll;
     float: left;
     border-left: 1px solid rgba(0,0,0,0.1);
 }
@@ -625,12 +640,10 @@ p.section-info__text{
 }
 
 .jobs__item{
-    padding: 20px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-.jobs__item:hover .item__desc{
-    height: 300px;
+    padding: 90px 40px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 20px;
+    margin-bottom: 50px;
 }
 
 .jobs__item:hover .desc__job p{
@@ -638,7 +651,6 @@ p.section-info__text{
 }
 
 .item__desc{
-    height: 0;
     overflow: hidden;
 }
 
@@ -849,7 +861,6 @@ p.section-info__text{
     overflow: hidden;
     background: #e74c3c;
     font-weight: 700;
-    /*height: 100vh;*/
     -webkit-animation: colorAnimate 10s infinite;
     animation: colorAnimate 10s infinite;
 }
@@ -898,7 +909,6 @@ p.section-info__text{
     line-height: 40px;
     color: #fff;
     text-align: justify;
-    /* list-style: none; */
 }
 
 .pv{
