@@ -97,6 +97,7 @@ textarea{
 
 .section-info{
     padding: 50px 0px;
+    width: 100% !important;
 }
 
 .title{
