@@ -129,7 +129,7 @@ const Faq = (props) => {
                                             If you come across players offering free golds, characters, stars and XP, it's a scam!
                                             These people are trying to trick you into giving out personal information like e-mail accounts, passwords and credit card information for their own benefit.
                                             Moreover, these people make it seem like they are legitimate, sending you links or attachments containing viruses and deceptive e-mails that can bring harm to your privacy and device safety.
-                                            We don't want you to be a victim! We urge you, our beloved users, to ensure you are connected to an authorized Word Cosmos site or support.
+                                            We don't want you to be a victim! We urge you, our beloved users, to ensure you are connected to an authorized <a href="https://www.frecre.com/en/wordcosmos/">Word Cosmos</a> site or support.
                                             Never share your personal data even with Word Cosmos staff. Remember, a real Word Cosmos staff would never ask for your password.
                                             Also, please consider your own email security, and do not reply to unsolicited e-mails that invite you to launch a web hyperlink, attachment or even provide log in information.
                                             If you think you've been a victim of scams, change your e-mail password and contact your e-mail provider immediately.
@@ -179,7 +179,7 @@ const Faq = (props) => {
                                         <h1 className="section--text-gray">My device is not supported!</h1>
                                         <p>We regret to inform you that we will only support the following devices below due to technical issues.</p>
                                         <p>&gt;Apple devices running from iOS 8 and up<br />&gt;Android devices running from Android 4.0.4 and up.</p>
-                                        <p>Please update your device update to a newer iOS or Android version if your device runs on lower versions specified above.<br />Updating iOS or Android can be found in Apple Support Website or Google Help.</p>
+                                        <p>Please update your device update to a newer iOS or Android version if your device runs on lower versions specified above.<br />Updating iOS or Android can be found in <a href="https://support.apple.com/">Apple Support</a> Website or <a href="https://support.google.com/">Google Help.</a></p>
                                     </div>
                                 </div>
                                 <div id="otln4" className="main-content-info">
@@ -203,7 +203,7 @@ const Faq = (props) => {
                                     </div>
                                     <div id="otln4-4" className="outline-info">
                                         <h1 className="section--text-gray">How can I stop Google alerts?</h1>
-                                        <p><br />Tired of getting Google Alerts?<br />Your device could have been connected to another Google Play account so it keeps on asking to load a different game.<br />To stop the alerts, follow these:</p>
+                                        <p><br />Tired of getting Google Alerts?<br />Your device could have been connected to another <a href="https://support.google.com/">Google Play</a> account so it keeps on asking to load a different game.<br />To stop the alerts, follow these:</p>
                                         <p>1. Go to device Settings<br />2. Choose Accounts<br />3. Add or sign in correct account<br />4. Restart device</p>
                                         <p>If these steps do not work, and your Google Play account feels like it's connected to someone else&rsquo;s game, please contact us. We&rsquo;ll do our best to help.</p>
                                     </div>
@@ -250,8 +250,8 @@ const Faq = (props) => {
                                         <h1 className="section--text-gray">Game is not loading even when connected to Game Center or Google Play.</h1>
                                         <p>It&rsquo;s extremely important to use the correct credentials when logging in, so please make sure you&rsquo;re connecting to the right Game Center account. <br />If you can&rsquo;t prompt your desired account with the e-mail address you&rsquo;re using now, that means you are not using the right one.<br />Access your accounts properly to avoid troubles and loss of account.</p>
                                         <p>iOS<br />Make sure your Game Center account is correct.<br />If the account you want doesn't connect, it means the e-mail address used is not correct.</p>
-                                        <p>1. Go to Game Center found in Settings of device.<br />2. Login using original e-mail address to link account.<br />3. If it&rsquo;s an old email, and nothing works, it's best to contact Apple Support to recover account information.</p>
-                                        <p>Android<br />1. Add the correct Google Play account to device<br />2. In game settings, tap &lsquo;Google Play Sign-in&rsquo;.<br />3. Connect correct e-mail address used to link with game account.<br />4. If it&rsquo;s an old e-mail, and nothing works, it's best to contact Google Support to recover account information.</p>
+                                        <p>1. Go to Game Center found in Settings of device.<br />2. Login using original e-mail address to link account.<br />3. If it&rsquo;s an old email, and nothing works, it's best to contact <a href="https://support.apple.com/">Apple Support</a> to recover account information.</p>
+                                        <p>Android<br />1. Add the correct Google Play account to device<br />2. In game settings, tap &lsquo;Google Play Sign-in&rsquo;.<br />3. Connect correct e-mail address used to link with game account.<br />4. If it&rsquo;s an old e-mail, and nothing works, it's best to contact <a href="https://support.google.com/">Google Support</a> to recover account information.</p>
                                         <p>Word Cosmos has no access into the account information of your Game Center account. <br />In order to recover your account, you need to get the correct login details linked with your game.</p>
                                     </div>
                                 </div>
@@ -326,13 +326,13 @@ const Faq = (props) => {
                                     <div id="otln10-1" className="outline-info">
                                         <h1 className="section--text-gray">My game keeps on crashing.</h1>
                                         <p>If your game keeps on crashing, try the troubleshooting tips below:<br />1. Check the latest version of the game.<br />2. Check phone version. (Word Cosmos supports Android OS 4.4 up and iOS 8 versions and up.)<br />2. Close unused applications.<br />3. Uninstall unneeded apps, videos, photos to free up device memory.</p>
-                                        <p>If the game still crashes, please contact us through support@frecre.com.</p>
+                                        <p>If the game still crashes, please contact us through <a href="mailto:support@frecre.com?subject=[Crash Report]">support@frecre.com.</a></p>
                                     </div>
                                     <div id="otln10-2" className="outline-info">
                                         <h1 className="section--text-gray">I can't hear the sound effects!</h1>
                                         <p>There are plenty of reasons why you can't hear the sound effects.</p>
                                         <p>GAME SETTINGS<br />You can start by checking the game settings.<br />1. Make sure the SFX/ BGM or sounds are ON.<br />2. Make sure you have the latest version of the game.<br />2. If the settings are okay, but there are still no sounds, try to restart.<br />3. Quit the game and open again.</p>
-                                        <p>PHONE SETTINGS<br />If the game setting does not work, please try the following:<br />1. Make sure Mute is OFF.<br />2. Try plugging in, and unplugging some earphones.<br />3. Try opening another app, and check sounds.<br />4. If the sounds are not working in another app, there might be a problem in the device.<br />Note: You can also check Apple Support (https://support.apple.com/en-ph/HT203794) for sound problems.</p>
+                                        <p>PHONE SETTINGS<br />If the game setting does not work, please try the following:<br />1. Make sure Mute is OFF.<br />2. Try plugging in, and unplugging some earphones.<br />3. Try opening another app, and check sounds.<br />4. If the sounds are not working in another app, there might be a problem in the device.<br />Note: You can also check <a href="https://support.apple.com/">Apple Support</a> for sound problems.</p>
                                     </div>
                                     <div id="otln10-3" className="outline-info">
                                         <h1 className="section--text-gray">I want to disable push notifications.</h1>
@@ -348,7 +348,7 @@ const Faq = (props) => {
                                     <div id="otln11-1" className="outline-info">
                                         <h1 className="section--text-gray">Can I get a refund?</h1>
                                         <p>In-app purchases are basically non-refundable but in rare cases, exceptions can be made.<br />If you or your child accidently purchased something, you can try the steps that follow.</p>
-                                        <p>iOS<br />For purchases made with Apple (iOS) device, WORD COSMOS has no direct access for refunds.<br />Kindly follow the steps below.<br />1. Please visit Apple Support<br />2. Check "Contact iTunes Store Support".<br />3. Select "Purchases, billing and redemption".</p>
+                                        <p>iOS<br />For purchases made with Apple (iOS) device, WORD COSMOS has no direct access for refunds.<br />Kindly follow the steps below.<br />1. Please visit <a href="https://support.apple.com/">Apple Support</a><br />2. Check <a href="https://support.apple.com/itunes">"Contact iTunes Store Support"</a>.<br />3. Select <a href="https://support.apple.com/itunes">"Purchases, billing and redemption"</a>.</p>
                                         <p>ANDROID<br />For purchases made with Google (ANDROID) device, please follow the steps below.<br />1. Go to Word Cosmos settings.<br />2. Select 'Contact Us' and choose your inquiry.<br />3. You will be redirected to our e-mail (support@frecre.com).<br />4. Please state the name of the purchase and add the receipt or transaction ID of the purchase.</p>
                                     </div>
                                     <div id="otln11-2" className="outline-info">
@@ -365,13 +365,13 @@ const Faq = (props) => {
                                         <h1 className="section--text-gray">Where do I see my purchase history?</h1>
                                         <p>If you want to view your purchases, check the details below:</p>
                                         <p>iOS<br />1. Go iTunes on your computer. <br />2. Tap your username (in this case, e-mail address)<br />3. Tap &ldquo;Account&rdquo;<br />4. Choose &ldquo;Purchase History&rdquo; then &ldquo;See All&rdquo;.</p>
-                                        <p>ANDROID<br />1. Go to Google Payments (payments.google.com)<br />2. Login Google account<br />3. Select &ldquo;Transactions&rdquo;</p>
+                                        <p>ANDROID<br />1. Go to <a href="payments.google.com">Google Payments</a> <br />2. Login Google account<br />3. Select &ldquo;Transactions&rdquo;</p>
                                     </div>
                                     <div id="otln11-5" className="outline-info">
                                         <h1 className="section--text-gray">I can't make an order!</h1>
-                                        <p>iOS<br />If you are having trouble with payments in iOS, make sure to check the following below:<br />1. Configure device settings before making an order.<br />2. Contact iTunes Support for orders that has been processing for 24 hrs.<br />3. Check iTunes in-app purchase restriction guide to identify error in ordering.</p>
-                                        <p>ANDROID<br />Please be reminded that Google handles all payments done through Google Play Store. <br />Therefore, for purchasing issues, please consult Google Support.</p>
-                                        <p>If payment methond is &ldquo;not eligible&rdquo;, please follow the steps below:<br />1. Go to payments.google.com<br />2. Select Payment Methods<br />3. For credit/debit card, check the expiration date &amp; billing address<br />4. Make sure the billing country and legal country matches</p>
+                                        <p>iOS<br />If you are having trouble with payments in iOS, make sure to check the following below:<br />1. Configure device settings before making an order.<br />2. Contact <a href="https://support.apple.com/itunes">iTunes Support</a> for orders that has been processing for 24 hrs.<br />3. Check iTunes in-app purchase restriction guide to identify error in ordering.</p>
+                                        <p>ANDROID<br />Please be reminded that Google handles all payments done through Google Play Store. <br />Therefore, for purchasing issues, please consult <a href="https://support.google.com/">Google Support.</a></p>
+                                        <p>If payment methond is &ldquo;not eligible&rdquo;, please follow the steps below:<br />1. Go to <a href="payments.google.com">payments.google.com</a><br />2. Select Payment Methods<br />3. For credit/debit card, check the expiration date &amp; billing address<br />4. Make sure the billing country and legal country matches</p>
                                         <p>If none of these worked out, please try a different payment method.</p>
                                     </div>
                                 </div>
