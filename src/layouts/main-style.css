@@ -640,7 +640,7 @@ p.section-info__text{
 }
 
 .jobs__item{
-    padding: 90px 40px;
+    padding: 40px;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 20px;
     margin-bottom: 50px;
@@ -659,9 +659,7 @@ p.section-info__text{
 }
 
 .desc__job p{
-    opacity: 0;
     font-size: 18px;
-    color: rgba(0,0,0,0.5);
     line-height: 30px;
 }
 
