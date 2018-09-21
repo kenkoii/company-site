@@ -655,6 +655,16 @@ p.section-info__text{
     overflow: hidden;
 }
 
+.desc__button{
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    background: #e74c3c;
+    color: #fff;
+    display: block;
+    width: 150px;
+}
+
 .desc__job{
     padding: 20px;
 }
