@@ -15,12 +15,13 @@ const JobsSvg = (props) => {
         
     const jobs = jobList.map(item => <div className="jobs__item">
                                         <div className="item__title">
-                                            <a className="job-item" href={`mailto:recruitment@frecre.com?subject=[${item.job}]`} target="blank_">{item.job}</a>
+                                            <a className="job-item" target="blank_">{item.job}</a>
                                         </div>
                                         <div className="item__desc">
                                             <div className="desc__job" dangerouslySetInnerHTML={{__html: item.desc}}/>
-                                                
-                                            
+                                        </div>
+                                        <div className="item__desc">
+                                            <a href={`mailto:recruitment@frecre.com?subject=[${item.job}]`} className="desc__button">Apply Now</a>
                                         </div>
                                     </div>);
                                     // <p>{item.desc}</p></div>
